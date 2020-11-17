@@ -1,2 +1,0 @@
-serviceClass: edu.nd.mlab.client.GreetingService
-path: 8D1DE0785CDA0C35B88E84199D2811E8.gwt.rpc
