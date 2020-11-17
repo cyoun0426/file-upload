@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder [
+
+<!ENTITY % HTMLlat1 SYSTEM "https://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent">
+%HTMLlat1;
+
+
+<!ENTITY % HTMLsymbol SYSTEM "https://www.w3.org/TR/xhtml1/DTD/xhtml-symbol.ent">
+%HTMLsymbol;
+
+
+<!ENTITY % HTMLspecial SYSTEM "https://www.w3.org/TR/xhtml1/DTD/xhtml-special.ent">
+%HTMLspecial;
+]>
+<!-- !DOCTYPE ui:UiBinder SYSTEM "https://dl-ssl.google.com/download/gwt/DTD/xhtml.ent"-->
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		Hello,
+		<g:Button styleName="{style.important}" ui:field="button" />
+	</g:HTMLPanel>
+</ui:UiBinder> 
